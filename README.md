@@ -19,3 +19,9 @@ MailS3Prefix	:  devops
 MailSender	  :  terraform@kubelancer.com
 Region	      :  us-east-1
 ```
+
+Route53
+
+```
+	kubelancer.com	MX	Simple		20 inbound-smtp.us-east-1.amazonaws.com
+ ```
